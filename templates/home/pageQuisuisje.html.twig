@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+        <meta name="description" content="Emmanuel CUQUEJO vous accueil sur son site de coaching de vie , et vous présente ses méthodes de travail">
+
+        <link rel="stylesheet" href="https://bootswatch.com/4/superhero/bootstrap.min.css"> 
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="{{ asset('css/styles-quisuisje.css') }}">
+        <link rel="shorcut icon" href="../img/logo.png">
+
+        <title>{% block title %} Emmanuel CUQUEJO {% endblock %}</title>
+        {% block stylesheets %}{% endblock %}
+
+    </head>
+
+<body>
+
+<div id="wrapper">
+
+
+    <!-- ************************ NAVBAR ************************* -->
+
+    <div class="navBar1">
+
+        <div class="container-fluid">
+
+            <div class="row text-center">
+              
+                <i class="icon1 fas fa-bars fa-2x"></i>
+
+                <nav class="col-lg-12 col-xs-12">
+
+                    <ul class="nav-list1">
+                        <li class="list1"><a href="{{ path('homepage')}}"> Accueil </a></li>
+                        <li class="list1"><a href="{{ path('particular')}}"> Particulier </a></li>
+                        <li class="list1"><a href="{{ path('professionnal')}}"> Professionnel </a></li>
+                        <li class="list1"><a href="{{ path('whoIam')}}"> Qui suis-je ?</a></li>
+                        <li class="list1"><a href="{{ path('contact')}}"> Contact </a></li>
+
+                        <div id="connexion">
+
+                            <button class="btn button"><a href="{{ path('connexion_au_backoffice')}}"> Connexion </a></button>
+                            <button class="btn button"><a href="{{ path('connexion_au_backoffice')}}"> Inscription </a></button>
+
+
+                        </div>
+
+                    </ul>
+
+                </nav>
+
+            </div>
+
+            <div class="citation3">
+                <blockquote class="text-center"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic ducimus voluptas  </blockquote>
+            </div>
+
+        </div>
+        
+    </div>
+
+
+     <!-- ************************ MAIN ************************* -->
+    
+    <section class="quisuisje mt-5">
+
+        <div class="container">
+            <h2 class="titre1">Emmanuel, Coach de vie certifiée</h2>
+
+            <div class="row">
+
+                <div class="col-md-6 mt-5">
+                    <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab nam quo consectetur vitae modi, architecto blanditiis suscipit minima </h4> <br>
+                    <p>
+                        explicabo omnis quas voluptates molestias, eaque hic ipsum obcaecati, iusto aspernatur laborum.Enim animi ipsa autem soluta ab aut distinctio odio ducimus excepturi temporibus, sunt quibusdam recusandae molestiae. Debitis, molestiae consequatur sed veritatis, numquam, dolorum doloremque quidem sequi iusto exercitationem blanditiis necessitatibus.
+                    </p>
+                </div>
+
+                <div class="col-md-6">
+                    <img src="img/paysage2.jpg" class="img-fluid" alt="">
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+     <!-- ************************ STEP PROGRESS ************************* -->
+
+    <section class="step-progress">
+
+            <div class="section-header1 text-center">
+
+                <h2 class="section-title1"> LES DIFFERENTES ETAPES </h2>
+
+                <div class="citation2"> " Lorem ipsum dolor, sit amet consectetur adipisicing " </div>
+
+            </div>
+
+        <div class="step">
+            <ul>
+                <li><img src="img/icone6.png" alt=""><br><h4 class=" jaune "> <strong> PREMIERE RENCONTRE </strong> </h4><br><p>Lorem ipsum dolor Lorem ipsum dolor sit amet consectetur, adipisicing elit. </p></li>
+                <li><img src="img/icone5.png" alt=""><br><h4 class=" jaune "> <strong> ANALYSE </strong>  </h4><br><p>Lorem ipsum dolor Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p></li>
+                <li><img src="img/icone3.png" alt=""><br><h4 class=" jaune "> <strong> SOLUTION </strong></h4><br><p>Lorem ipsum dolor Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p></li>
+                <li><img src="img/icone2.png" alt=""><br><h4 class=" jaune "> <strong> ACCOMPAGNEMENT </strong></h4><br><p>Lorem ipsum dolor Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p></li>
+                <li><img src="img/icone7.png" alt=""><br><h4 class=" jaune "> <strong> ENVOL </strong></h4><br><p>Lorem ipsum dolor Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p></li>                
+            </ul>
+
+        </div>
+
+    </section>
+
+
+
+     <!-- ************************ FAQ ************************* -->
+    <section class="faq">
+
+       <div class="container-fluid">
+
+            <div class="row">
+
+                <div class="col-md-6">
+
+                        <img src="img/img2.jpg" class="img-fluid" alt="">
+                        
+                </div>
+
+                <div class="col-md-6 ">
+
+                    <div class="section-header2 text-center">
+                        <h2 class="section-title4"> FOIRE AUX QUESTIONS </h2>
+                        <span class="titre-span0"></span>
+                        <div class="citation3"> " Lorem ipsum dolor, amet consectetur adipisicing " </div>
+                    </div>
+                
+                    <div class="accordeon">
+
+                        <button class="accordion"> Comment puis-je vous joindre ?</button>
+                        <div class="panel">
+                        
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum quam voluptates id accusamus recusandae saepe blanditiis pariatur dolorum, porro enim labore, harum maxime odit error similique, quo hic temporibus quod!</p>
+                        
+                        </div>
+                        
+                        <button class="accordion"> Combien de temps dure une séance ? </button>
+                        <div class="panel">
+                        
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum quam voluptates id accusamus recusandae saepe blanditiis pariatur dolorum, porro enim labore, harum maxime odit error similique, quo hic temporibus quod!</p>
+                        
+                        </div>
+
+                        <button class="accordion"> Quelles sont les prix ? </button>
+                        <div class="panel">
+                        
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum quam voluptates id accusamus recusandae saepe blanditiis pariatur dolorum, porro enim labore, harum maxime odit error similique, quo hic temporibus quod!</p>
+                        
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    
+    </section>
+
+</div>
+
+
+     <!-- ************************ FOOTER ************************* -->
+
+
+        <footer>
+                <div class="footer-top mt-5">
+            
+                    <div class="container">
+            
+                        <div class="row">
+            
+                            <div class="col-md-4 col-sm-6 col-xs-12 section-one">
+                                <h3> Restons en contact </h3>
+                                <a href=""><strong>emmanuel.cuquejo@laposte.net</strong></a>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p>
+                                <br>
+                                <a href="mailto:emmanuel.cuquejo@laposte.net"> <input type="submit" value="Me contacter" class="btn btn-button"></a>
+                            </div>
+            
+                            <div class="col-md-4 col-sm-6 col-xs-12 section-two">
+                                <ul>
+                                    <li><a href="mention_legales.html"> Mentions légales </a></li>
+                                    <li><a href="politique_cookies.html"> Politique des cookies </a></li>
+                                    <li><a href="politique_confidentialite.html"> Politique de confidentialité</a></li>
+                                    <li><a href="faq.html"> FAQ </a></li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    
+                    </div>
+            
+                </div>
+            
+        </footer>
+    
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-md-4 col-sm-6 col-xs-12 section-three">
+                    <div class="copyright text-center">
+                            <p>&copy; Copyright 2019<strong> Emmanuel CUQUEJO </strong>. Tous droits réservés</p>
+                    </div>
+                    <div class="credits text-center">
+                        Designed by <a href="mailto:d.cuquejo@laposte.net"> CUQUEJO David</a>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="js/vendors/bootstrap.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

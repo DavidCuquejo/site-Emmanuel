@@ -1,0 +1,50 @@
+{% extends 'base/base.html.twig' %}
+
+{% block content %}
+
+    <h3 class="text-center"> Gestion des membres </h3>
+
+    <div class="table-responsive">
+        <table class="table table-bordered table-striped">
+            <thead>
+                <tr>
+                    <th>Id du membre</th>
+                    <th>Username</th>
+                    <th>Prénom</th>
+                    <th>Nom</th>
+                    <th>Email</th>
+                    <th colspan="2">Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+			{% for mbre in membres %}
+				<tr>
+					<td>{{ mbre.id }}</td>
+					<td>{{ mbre.username }}</td>
+					<td>{{ mbre.prenom }}</td>
+					<td>{{ mbre.nom }}</td>
+					<td>{{ mbre.email }}</td>
+					
+							
+					{% if mbre.roles == ['ROLE_USER']  %}
+					{#{% if mbre.role == 'ROLE_USER' %}#}
+					
+					<td class="text-success"><strong>Client</strong></td>
+					{% else %}
+					<td class="text-danger"><strong>Admin</strong></td>
+					{% endif %}
+					
+				
+
+					<td><a href="{{ path('membre_update', {'id' : mbre.id}) }}"><i class="fas fa-edit"></i></a></td>
+					<td><a onclick="return confirm('Etes-vous certain de vouloir supprimer le membre {{ mbre.username }} ?')" href="{{ path('membre_delete', {'id' : mbre.id}) }}"><i class="fas fa-trash"></i></a></td>
+				</tr>
+			{% endfor %}
+            </tbody>
+        </table>
+    </div>
+{% endblock %}
+
+	
+
+	

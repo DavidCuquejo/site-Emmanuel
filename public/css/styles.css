@@ -1,0 +1,851 @@
+/* RESET */
+
+* {
+    margin: 0;
+    padding:0;
+}
+
+html body {
+    height: 100%;
+    
+}
+
+#wrapper {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin-bottom: auto;
+}
+
+@media (min-width: 1405px) {
+    .container-fluid{
+      width: 1400px;
+    }
+  }
+
+/************************************************ GENERAL STYLES **************************************/
+
+@font-face {
+    font-family: 'HelveticaNeue'; 
+    font-family: Helvetica ;
+    src: url('police/HelveticaNeue.ttc');
+    src: url('police/Helvetica.ttc');
+}
+
+.sections {
+    padding: 50px 0;
+}
+
+/**************************** NAVBAR ***************************/
+
+#video_background{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1000;
+    overflow: hidden;
+}
+
+.navBar {
+    height: auto;
+    /* padding: 10px 0; */
+    border-bottom: 1px solid #fff;
+    position: relative;
+    background: rgba(0, 0, 0, 0.363);
+}
+
+.navBar i.icon {
+    position: absolute;
+    right: 30px;
+    top:34px;
+    z-index:10;
+    display:none;
+    color:white;
+}
+
+
+.navBar nav .nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 0;
+    font-size: 22px;
+    margin-right: 400px;
+    width: 100%;
+}
+
+.navBar nav .nav-list .list a {
+    display: block;
+    padding: 15px 0;
+    margin: 9px 0;
+    text-decoration: none;
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+
+.navBar nav .nav-list .list a:hover {
+    color: #ff992a;
+}
+
+.navBar i.icon:hover {
+    color:#ff992a;
+}
+
+.navBar button {
+    background-color: #ff992a;
+}
+
+.navBar a{
+    color: white;
+    text-decoration:none;
+}
+
+.navBar button a:hover {
+    color:#28667a;
+}
+
+#connexion {
+    float: right; 
+    margin-left: 200px;
+    margin-top: 25px;
+
+}
+
+/* ************************ FOOTER ************************* */
+
+
+.footer-top {
+    height: 28vh;
+    background-color: #e7e6e6;
+}
+
+.footer-top a {
+    text-decoration: none;
+    color: black;
+    list-style: none;
+}
+
+.footer-top a:hover {
+    color: #fc424f;
+}
+
+.footer .section-one a input .btn {
+    background-color: #ff992a;
+}
+/* ************************************************************************************************************************************ */
+
+/* ******************* PAGE ACCEUIL HEADER HOME SECTION ************************ */
+
+.home {
+    height: 100vh;
+    position: relative;
+}
+
+.home .home-content {
+    
+    height: 400px;
+    width: 50%;
+    margin-left: 95px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-60%, -60%);
+}
+
+.home .home-content p {
+    font-family: 'HelveticaNeue.ttc' ;
+    font-size: 25px;
+}
+
+.home .home-title {
+    color: #fff;
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+.home .home-desc {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.home .button {
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    font-size:20px;
+}
+
+.button-main {
+    margin-top: 50px; 
+    width: 100%;
+    height: 100px;
+    padding: 20px;
+}
+
+.button-main a {
+    text-decoration: none;
+    color:white;
+}
+.logo {
+    height: 140px;
+    margin-bottom: 60px;
+}
+
+
+
+/* *********************** COMMENT PUIS-JE VOUS AIDER? ***************************** */
+
+.about {
+    background:#e7e6e6;
+    height: auto;
+   
+}
+
+.section-header {
+    width: 100%;
+    margin-right: 300px;
+}
+
+.section-title {
+    margin-bottom: 60px;
+    margin-left: 5%;
+    font-size:30px;
+    color:#ff992a;
+}
+
+.titre-span0 {
+    display:block;
+    width:300px;
+    height: 5px;
+    background-color:#ff992a;
+    position: relative;
+    bottom:45px;
+    left: 40%;
+       
+}
+
+.about .serv {
+    width: 300px;
+    background: #3595a1;
+    padding:10px;
+    text-align: center;
+    margin-left: 100px;
+    margin-bottom: -50px;
+    -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.about .serv {
+    color:white;
+}
+
+.about .serv .icone {
+    background :#fff;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    color: black;
+    border-radius: 50%;
+}
+
+.about .serv-desc {
+    font-size: 17px;
+    color: #fff;
+    margin-bottom:20px;
+}
+
+.about .serv-title {
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.about .serv:hover {
+    -webkit-transform: scale(1.2);
+	transform: scale(1.2);
+    }
+
+.contact {
+    margin-top: 40px;
+    margin-left: 670px;
+    padding: 10px;
+    color:white;
+    background-color: #ff992a;
+}
+
+
+
+
+
+/* ************************ JE ME LANCE  ************************* */
+
+.jemelance {
+    height: auto;
+}
+
+.jemelance .titre-span3 {
+    margin-top: 50px;
+}
+
+.jemelance .col-md-6 a{
+    color:white;
+    text-decoration: none;
+}
+
+.jemelance .row .btn {
+    background-color : #ff992a;
+    margin-top: 200px; 
+    margin: 0 30px;
+}
+
+.section-header .citation1 {
+    margin-top: 50px;
+    margin-right: 100px;
+    font-size: 23px;
+}
+
+.section-title3 {
+    margin-right: 100px;
+    margin-top:50px;
+    font-size:30px;
+    color:#ff992a;
+}
+
+.titre-span3 {
+    display:block;
+    width:130px;
+    height: 5px;
+    background-color:#ff992a;
+    position: relative;
+    bottom:40px;
+    left: 33%;  
+}
+
+.emmanuel {
+    margin-top: 70px;
+    width: 400px;
+    height: 400px;  
+}
+
+.button1 {
+    display: flex;
+    margin-top: 100px;
+}
+
+
+
+
+
+/* ************************************** PAGE PARTICULIER *********************** */
+
+#page_particulier {
+    background-color: #2c6c6c;
+}
+
+/* ************************ HEADER PRESENTATION ***************** */
+
+#block1 {
+    color:white;
+}
+
+.block1 {
+    margin-top: 100px;
+}
+
+.titre_pro1 {
+    color:#ff992a;
+}
+
+.citation_pro1 {
+    margin-top: 50px;
+}
+
+.guillemet {
+    font-size: 20px !important;
+    line-height: 30px;
+}
+
+.guillemet::before {
+    content: '\201C';
+    font-size:50px;
+    position: relative;
+    color: #ff992a;
+    line-height: 20px;
+    bottom: -15px;
+    right: 5px;
+}
+
+.guillemet::after {
+    content: '\201D';
+    font-size:50px;
+    position: relative;
+    color: #ff992a;
+    line-height: 10px;
+    bottom: -15px;
+    left: 5px;
+}
+/* ************************ A PROPOSE DE MOI  ************************* */
+
+#block2 {
+    margin-top: 100px;
+    color:white;
+}
+
+.block2 {
+    margin-top: 100px;
+}
+
+.titre_pro2 {
+    color:#ff992a;
+}
+
+.citation_pro2 {
+    margin-top: 50px;
+}
+
+.guillemet {
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.guillemet::before {
+    content: '\201C';
+    font-size:50px;
+    position: relative;
+    color: #ff992a;
+    line-height: 20px;
+    bottom: -15px;
+    right: 5px;
+}
+
+.guillemet::after {
+    content: '\201D';
+    font-size:50px;
+    position: relative;
+    color: #ff992a;
+    line-height: 10px;
+    bottom: -15px;
+    left: 5px;
+}
+
+
+
+
+
+
+/* ************************ TEMOIGNAGES ************************* */
+
+.testimonials {
+    margin: 50px auto;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+
+.testimonials h3 {
+    text-align: center;
+    color:#fc424f;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.testimonials h3::after {
+    content: '';
+    background: #fc424f;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+}
+
+.testimonials .row {
+    margin-top: 30px;
+}
+
+.col-md-4 {
+    margin: 40px auto;
+}
+
+.profile {
+    padding :70px 10px 10px;
+    background-color: #efefef;
+}
+
+.profile img {
+    top: -60px;
+    position: absolute;
+    left: calc(50% - 60px);
+    border: 10px solid white;
+}
+
+.user {
+    width: 120px;
+    height: 120px;
+    border-radius:50%;
+}
+
+.profile h3 {
+    font-size: 20px;
+    margin-top:15px;
+    color: #fc424f;
+}
+
+blockquote {
+    font-size: 16px;
+    line-height: 30px;
+    font-family: 'NSimSun';
+}
+
+blockquote::before {
+    content: '\201C';
+    font-size:50px;
+    position: relative;
+    color: #fc424f;
+    line-height: 20px;
+    bottom: -15px;
+    right: 5px;
+}
+
+blockquote::after {
+    content: '\201D';
+    font-size:50px;
+    position: relative;
+    color: #fc424f;
+    line-height: 10px;
+    bottom: -15px;
+    left: 5px;
+}
+
+.profile:hover {
+    box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+
+
+/* ************************ PAGE CONTACT ************************* */
+
+.contact1{
+    padding: 4%;
+    height:auto; 
+    background-color: rgba(137, 147, 151, 0.767); 
+}
+
+.form-contact1{
+    background: #ff992a;
+    padding: 4%;
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    height: 300px;;
+}
+
+.contact-info h2{
+    margin-bottom: 10%;
+}
+
+.form-contact2{
+    background: #fff;
+    padding: 3%;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+}
+
+.contact-form label{
+    font-weight:600;
+}
+
+.contact-form button{
+    background: #25274d;
+    color: #fff;
+    font-weight: 600;
+    width: 25%;
+}
+
+.contact-form button:focus{
+    box-shadow:none;
+}
+
+.contact1 .img-fluid {
+    height: 800px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* *********************** MEDIA QUERIES *************************** */
+
+@media screen and (max-width:380px) {
+    body html{
+        width:100%;
+    }
+    
+    .navBar nav .nav-list {
+        display: none;
+    }
+
+    .navBar i.icon {
+        display:block;
+    }
+
+    #connexion{
+        margin-right: 120px;
+    }
+
+    .home {
+        margin-right: 25%;
+    }
+    
+    .home .home-title {
+        font-size: 10px;
+    }
+
+    .home .button {
+        margin-bottom: 10px;
+        right: 10%;
+        padding: 5px;
+        font-size:15px;
+    }
+
+    .home .home-content {
+        width :100%;
+        margin-right: 250px;
+    }
+
+    .home .lead .citation {
+        display: none;
+    }
+
+    .section-header p {
+        display:none;
+    }
+
+    .section-title {
+        width: 100%;
+        font-size: 25px;
+        margin-bottom:20px;
+    }
+
+    .titre-span0 {
+        margin-top: 60px;
+        width: 50%;
+    }
+
+    .particulier {
+        width: 124px;
+    }
+
+    .button-main {
+        width: 100%;
+        margin-right: 200px;
+    }
+
+    .about {
+        margin-right : 20px;
+        width: 100%;
+    }
+
+    .about .serv {
+        padding:8px;
+        margin-left: 20px;
+        margin-bottom: 8px;
+    }
+
+    .about-me_pro {
+        padding-top: 560px;
+    }
+
+    .contact {
+        margin-left: 125px;
+    }
+
+    .contact1 .img-fluid {
+        height: 400px;
+        width: 300px;
+        margin-top:20px;
+        margin-left: 20px;
+    }
+
+    /* JE ME LANCE */
+
+    .jemelance {
+        width: 100%;
+    }
+
+    .section-title3 {
+        width: 100%;
+    }
+
+    .jemelance .row .btn {
+        width: 30%;
+        margin: auto;
+        font-size: 15px;
+    }
+
+    /*********** PAGE PROFESSIONNEL ************/
+
+    /* HEADER PRESENTATION  */
+
+    .flamby {
+        height: 200px;
+        width: 300px;
+    }
+
+    /* A PROPOS DE MOI  */
+
+    .img-fluid_pro {
+        height: 300px;
+        width: 300px;
+    }
+
+    .section-header_pro1 p {
+        margin:auto;
+    }
+
+    .para1 {
+        margin-top: 50px;
+    }
+
+  
+
+}
+
+@media screen and (max-width:450px) {
+    .navBar nav .nav-list {
+        display: none;
+    }
+
+    .navBar i.icon {
+        display:block;
+    }
+
+    .home {
+        right: 15%;
+    }
+    
+    .home .home-title {
+        font-size: 25px;
+    }
+
+    .home .button {
+        margin-bottom: 10px;
+    }
+
+    .home .home-content {
+        margin-right: 150px;
+    }
+
+    .home .lead .citation {
+        display: none;
+    }
+
+    .about .serv {
+    padding:8px;
+    margin-left: 20px;
+    margin-bottom: 8px;
+    }
+
+}
+
+@media screen and (max-width:550px) {
+    .home .button {
+        margin-bottom: 10px;
+    }
+
+    .home {
+        right: 15%;
+        bottom: 15%;
+    }
+}
+
+@media screen and (max-width:520px) {
+
+    .home .button {
+        margin-bottom: 10px;
+    }
+
+    .home {
+        right: 25%;
+        bottom: 15%;
+    }
+}
+
+@media screen and (max-width:659px) {
+    body html{
+        width:100%;
+    }
+
+    .home .button {
+        margin-bottom: 10px;
+    }
+
+    .home {
+        right: 5%;
+    }
+}
+
+@media screen and (max-width:770px) {
+    body html{
+        width:100%;
+    }
+}
+
+@media screen and (max-width:855px) {
+    .home .button {
+        margin-bottom: 10px;
+    }
+
+    .home {
+        right: 5%;
+        bottom: 15%;
+    }
+}
+
+@media screen and (max-width: 890px) {
+    .navBar nav .nav-list {
+        display: none;
+    }
+    
+    .navBar i.icon {
+        display:block;
+    }
+
+    .home {
+        right: 5%;
+        bottom: 15%;
+    }
+
+    .home .home-title {
+        font-size: 25px;
+    }
+
+    .home .lead .citation {
+        display: none;
+    }
+
+}
+
+
+
+

@@ -1,0 +1,560 @@
+#wrapper {
+    background-color: #2c6c6c;
+}
+
+
+/**************************** NAVBAR ***************************/
+
+#video_background{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1000;
+    overflow: hidden;
+}
+
+.navBar {
+    height: auto;
+    border-bottom: 1px solid #fff;
+    position: relative;
+    background: rgba(0, 0, 0, 0.363);
+}
+
+.navBar i.icon {
+    position: absolute;
+    right: 30px;
+    top:34px;
+    z-index:10;
+    display:none;
+    color:#ff992a;
+}
+
+
+.navBar nav .nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 0;
+    font-size: 22px;
+    margin-right: 400px;
+    width: 100%;
+}
+
+.navBar nav .nav-list .list a {
+    display: block;
+    padding: 15px 0;
+    margin: 9px 0;
+    text-decoration: none;
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+
+.navBar nav .nav-list .list a:hover {
+    color: #ff992a;
+}
+
+.navBar i.icon:hover {
+    color:#ff992a;
+}
+
+.navBar button {
+    background-color: #ff992a;
+}
+
+.navBar a{
+    color: white;
+    text-decoration:none;
+}
+
+.navBar button a:hover {
+    color:#28667a;
+}
+
+#connexion {
+    float: right; 
+    margin-left: 200px;
+    margin-top: 25px;
+
+}
+
+
+/* ************************ HEADER PRESENTATION ***************** */
+
+#block1 {
+    margin-top: 100px;
+    color:white;
+}
+
+.block1 {
+    margin-top: 100px;
+}
+
+.titre_pro1 {
+    color:#ff992a;
+}
+
+.citation_pro1 {
+    margin-top: 50px;
+}
+
+.guillemet {
+    font-size: 20px !important;
+    line-height: 30px;
+}
+
+.guillemet::before {
+    content: '\201C';
+    font-size:50px;
+    position: relative;
+    color: #ff992a;
+    line-height: 20px;
+    bottom: -15px;
+    right: 5px;
+}
+
+.guillemet::after {
+    content: '\201D';
+    font-size:50px;
+    position: relative;
+    color: #ff992a;
+    line-height: 10px;
+    bottom: -15px;
+    left: 5px;
+}
+/* ************************ A PROPOSE DE MOI  ************************* */
+
+#block2 {
+    margin-top: 100px;
+    color:white;
+}
+
+.block2 {
+    margin-top: 100px;
+}
+
+.titre_pro2 {
+    color:#ff992a;
+}
+
+.citation_pro2 {
+    margin-top: 50px;
+}
+
+.guillemet {
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.guillemet::before {
+    content: '\201C';
+    font-size:50px;
+    position: relative;
+    color: #ff992a;
+    line-height: 20px;
+    bottom: -15px;
+    right: 5px;
+}
+
+.guillemet::after {
+    content: '\201D';
+    font-size:50px;
+    position: relative;
+    color: #ff992a;
+    line-height: 10px;
+    bottom: -15px;
+    left: 5px;
+}
+/* ************************ TEMOIGNAGES ************************* */
+
+.testimonials {
+    margin: 50px auto;
+    margin-top: 100px;
+}
+
+.testimonials h3 {
+    text-align: center;
+    color:#ff992a;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.testimonials h3::after {
+    content: '';
+    background: #ff992a;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+}
+
+
+.testimonials .row {
+    margin-top: 30px;
+}
+
+.col-md-4 {
+    margin: 40px auto;
+}
+
+.profile {
+    padding :70px 10px 10px;
+    background-color: #efefef;
+}
+
+.profile img {
+    top: -60px;
+    position: absolute;
+    left: calc(50% - 60px);
+    border: 10px solid white;
+}
+
+.user {
+    width: 120px;
+    height: 120px;
+    border-radius:50%;
+}
+
+.profile h3 {
+    font-size: 20px;
+    margin-top:15px;
+    color: #ff992a;
+}
+
+blockquote {
+    font-size: 16px;
+    line-height: 30px;
+    font-family: 'NSimSun';
+}
+
+blockquote::before {
+    content: '\201C';
+    font-size:50px;
+    position: relative;
+    color: #ff992a;
+    line-height: 20px;
+    bottom: -15px;
+    right: 5px;
+}
+
+blockquote::after {
+    content: '\201D';
+    font-size:50px;
+    position: relative;
+    color: #ff992a;
+    line-height: 10px;
+    bottom: -15px;
+    left: 5px;
+}
+
+.profile:hover {
+    box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+/* ************************ FOOTER ************************* */
+
+
+.footer-top {
+    height: auto;
+    background-color: #e7e6e6;
+}
+
+.footer-top a {
+    text-decoration: none;
+    color: black;
+    list-style: none;
+}
+
+.footer-top a:hover {
+    color: #ff992a;
+}
+
+.footer .section-one a input .btn {
+    background-color: #ff992a;
+}
+
+.btn {
+    color: white;
+    background-color: #ff992a;
+}
+
+.text-center a{
+    color: black;
+    text-decoration: none;
+}
+
+.text-center a:hover {
+    color:#ff992a;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* *********************** MEDIA QUERIES *************************** */
+
+@media screen and (max-width:380px) {
+    body html{
+        width:100%;
+    }
+
+    .navBar {
+        margin-bottom: 100px;
+    }
+    
+    .navBar nav .nav-list {
+        display: none;
+    }
+
+    .navBar i.icon {
+        display:block;
+    }
+
+    #connexion{
+        margin-right: 100px;
+    }
+
+    .home {
+        margin-right: 25%;
+    }
+    
+    .home .home-title {
+        font-size: 10px;
+    }
+
+    .home .button {
+        margin-bottom: 10px;
+        right: 10%;
+        padding: 5px;
+        font-size:15px;
+    }
+
+    .home .home-content {
+        width :100%;
+        margin-right: 250px;
+    }
+
+    .home .lead .citation {
+        display: none;
+    }
+
+    .section-header p {
+        display:none;
+    }
+
+    .section-title {
+        width: 100%;
+        font-size: 25px;
+        margin-bottom:20px;
+    }
+
+    .titre-span0 {
+        margin-top: 60px;
+        width: 50%;
+    }
+
+    .particulier {
+        width: 124px;
+    }
+
+    .button-main {
+        width: 100%;
+        margin-right: 200px;
+    }
+
+    .about {
+        margin-right : 20px;
+        width: 100%;
+    }
+
+    .about .serv {
+        padding:8px;
+        margin-left: 20px;
+        margin-bottom: 8px;
+    }
+
+    .about-me_pro {
+        padding-top: 560px;
+    }
+
+    .contact {
+        margin-left: 125px;
+    }
+
+    /* JE ME LANCE */
+
+    .jemelance {
+        width: 100%;
+    }
+
+    .section-title3 {
+        width: 100%;
+    }
+
+    .jemelance .row .btn {
+        width: 30%;
+        margin: auto;
+        font-size: 15px;
+    }
+
+    /*********** PAGE PROFESSIONNEL ************/
+
+    .titre_pro1,.titre_pro2 {
+        font-size: 22px;
+        text-align: center !important;
+    }
+
+    .citation_pro1,.citation_pro2 {
+        text-align: center !important;
+        font-size: 20px;
+    }
+
+  
+
+}
+
+@media screen and (max-width:450px) {
+    .navBar nav .nav-list {
+        display: none;
+    }
+
+    .navBar i.icon {
+        display:block;
+    }
+
+    #connexion {
+        padding-bottom: 20px;
+    }
+
+    .home {
+        right: 15%;
+    }
+    
+    .home .home-title {
+        font-size: 25px;
+    }
+
+    .home .button {
+        margin-bottom: 10px;
+    }
+
+    .home .home-content {
+        margin-right: 150px;
+    }
+
+    .home .lead .citation {
+        display: none;
+    }
+
+    .about .serv {
+    padding:8px;
+    margin-left: 20px;
+    margin-bottom: 8px;
+    }
+
+}
+
+@media screen and (max-width:550px) {
+    .home .button {
+        margin-bottom: 10px;
+    }
+
+    .home {
+        right: 15%;
+        bottom: 15%;
+    }
+}
+
+@media screen and (max-width:520px) {
+
+    .home .button {
+        margin-bottom: 10px;
+    }
+
+    .home {
+        right: 25%;
+        bottom: 15%;
+    }
+}
+
+@media screen and (max-width:659px) {
+    body html{
+        width:100%;
+    }
+
+    .home .button {
+        margin-bottom: 10px;
+    }
+
+    .home {
+        right: 5%;
+    }
+}
+
+@media screen and (max-width:770px) {
+    body html{
+        width:100%;
+    }
+}
+
+@media screen and (max-width:855px) {
+    .home .button {
+        margin-bottom: 10px;
+    }
+
+    .home {
+        right: 5%;
+        bottom: 15%;
+    }
+}
+
+@media screen and (max-width: 890px) {
+    .navBar nav .nav-list {
+        display: none;
+    }
+    
+    .navBar i.icon {
+        display:block;
+    }
+
+    .home {
+        right: 5%;
+        bottom: 15%;
+    }
+
+    .home .home-title {
+        font-size: 25px;
+    }
+
+    .home .lead .citation {
+        display: none;
+    }
+
+}
+
+
+
+

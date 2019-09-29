@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+        <meta name="description" content="Emmanuel CUQUEJO vous accueil sur son site de coaching de vie , et vous présente ses méthodes de travail">
+
+        <link rel="stylesheet" href="https://bootswatch.com/4/superhero/bootstrap.min.css"> 
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="{{ asset('css/styles.css') }}">
+        <link rel="shorcut icon" href="../img/logo.png">
+
+        <title>{% block title %} Emmanuel CUQUEJO {% endblock %}</title>
+        {% block stylesheets %}{% endblock %}
+
+    </head>
+    <body>
+
+                                            <!-- ********************* NAVBAR **************************** -->
+
+
+    <div id="wrapper">
+
+        <div class="navBar">
+
+            <div class="container-fluid">
+                
+                    <video id="video_background" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0">
+                            <source src="img/Aerial Shot of a Lighthouse.mp4" type="video/mp4">  
+                    </video>
+
+                <div class="row text-center">
+
+                    
+                    <i class="icon fas fa-bars fa-2x"></i>
+
+                    <nav class="col-lg-12 col-xs-12">
+
+                        <ul class="nav-list">
+
+                                <li class="list"><a href="{{ path('homepage')}}" class="active"> Accueil </a></li>
+                                <li class="list"><a href="{{ path('particular')}}" class="active"> Particulier </a></li>
+                                <li class="list"><a href="{{ path('professionnal')}}" class="active"> Professionnel </a></li>
+                                <li class="list"><a href="{{ path('whoIam')}}" class="active"> Qui suis-je ?</a></li>
+                                <li class="list"><a href="{{ path('contact')}}" class="active"> Contact </a></li>
+
+                            <div id="connexion">
+
+                                <button class="btn button btn-light"><a href="{{ path('connexion_au_backoffice')}}" class=" inscription active"> Connexion </a></button>
+                                <button class="btn button btn-light"><a href="{{ path('connexion_au_backoffice')}}" class=" inscription active"> Inscription </a></button>
+
+
+                            </div>
+
+                        </ul>
+
+                    </nav>
+
+                </div>
+
+            </div>
+        
+        
+
+
+
+           {% block content %} {% endblock %}
+
+     <!-- ************************ FOOTER ************************* -->
+
+</div>
+        <footer>
+                <div class="footer-top mt-5">
+            
+                    <div class="container">
+            
+                        <div class="row">
+            
+                            <div class="col-md-4 col-sm-6 col-xs-12 section-one">
+                                <h3> Restons en contact </h3>
+                                <a href=""><strong>emmanuel.cuquejo@laposte.net</strong></a>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p>
+                                <br>
+                                <a href="mailto:emmanuel.cuquejo@laposte.net"> <input type="submit" value="Me contacter" class="btn btn-button"></a>
+                            </div>
+            
+                            <div class="col-md-4 col-sm-6 col-xs-12 section-two">
+                                <ul>
+                                    <li><a href="mention_legales.html"> Mentions légales </a></li>
+                                    <li><a href="politique_cookies.html"> Politique des cookies </a></li>
+                                    <li><a href="politique_confidentialite.html"> Politique de confidentialité</a></li>
+                                    <li><a href="faq.html"> FAQ </a></li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    
+                    </div>
+            
+                </div>
+            
+        </footer>
+    
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-md-4 col-sm-6 col-xs-12 section-three">
+                    <div class="copyright text-center">
+                            <p>&copy; Copyright 2019<strong> Emmanuel CUQUEJO </strong>. Tous droits réservés</p>
+                    </div>
+                    <div class="credits text-center">
+                        Designed by <a href="mailto:d.cuquejo@laposte.net"> CUQUEJO David</a>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="js/vendors/bootstrap.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
+
+                  
+

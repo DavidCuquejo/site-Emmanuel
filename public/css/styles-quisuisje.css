@@ -1,0 +1,510 @@
+/* RESET */
+
+* {
+    margin: 0;
+    padding:0;
+    list-style:none;
+    text-decoration: none;
+}
+
+html body {
+    height: 100%;
+    font-family: 'Helvetica'; 
+}
+
+#wrapper {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin-bottom: auto;
+}
+
+/************************************************ GENERAL STYLES **************************************/
+
+
+
+.sections {
+    padding: 50px 0;
+}
+
+
+/**************************** NAVBAR ***************************/
+
+.navBar1 {
+    height: 70vh;
+    padding: 10px 0;
+    border-bottom: 1px solid #fff;
+    position: relative;
+    background-image: url('../img/beach-catalonia-clouds-2873059.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.navBar1 i.icon1 {
+    position: absolute;
+    right: 30px;
+    top:34px;
+    z-index:10;
+    display:none;
+    color:white;
+}
+
+
+.navBar1 nav .nav-list1 {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 0;
+    font-size: 22px;
+    margin-right: 400px;
+    width: 100%;
+}
+
+.navBar1 nav .nav-list1 .list1 a {
+    display: block;
+    padding: 15px 0;
+    margin: 9px 0;
+    text-decoration: none;
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+
+.navBar1 nav .nav-list1 .list1 a:hover {
+    color: #fc424f;
+}
+
+.navBar1 i.icon1:hover {
+    color:#fc424f;
+}
+
+.navBar1 button {
+    background-color: #ff992a;
+}
+
+.navBar1 a {
+    text-decoration: none;
+    color: white;
+}
+
+.navBar1 button:hover {
+    color:#28667a;
+}
+
+#connexion {
+    float: right; 
+    margin-left: 200px;
+    margin-top: 25px;
+}
+
+
+blockquote {
+    font-size: 16px;
+    line-height: 30px;
+    font-family: 'NSimSun';
+    color:white;
+    font-size: 35px;
+    text-transform: uppercase;
+    margin-top: 15%;
+}
+
+blockquote::before {
+    content: '\201C';
+    font-size:50px;
+    position: relative;
+    color: #fc424f;
+    line-height: 20px;
+    bottom: -15px;
+    right: 5px;
+}
+
+blockquote::after {
+    content: '\201D';
+    font-size:50px;
+    position: relative;
+    color: #fc424f;
+    line-height: 10px;
+    bottom: -15px;
+    left: 5px;
+}
+
+
+/* *********************** MAIN *************************** */
+
+.titre1 {
+    color: #ff9b00;
+}
+
+/* *********************** STEP PROGRESS *************************** */
+
+.step-progress {
+    align-items: center;
+    height: auto;
+    background-color: #FAFAFA;
+    font-family: sans-serif;
+    margin-top: 100px;
+    /* position: relative; */
+}
+
+.step {
+    margin: 100px auto;
+}
+
+.step img{
+    width: 80px;
+   margin-bottom: 20px;
+}
+
+.step ul {
+    text-align: center;
+}
+
+.step ul li {
+    display: inline-block;
+    width: 300px;
+    position: relative;
+}
+
+.step ul li p {
+    width: 150px;
+    margin-left: 80px;
+}
+
+.step .jaune {
+    color: #ffda00;
+}
+
+.section-title1 {
+    width: 100%;
+    color: #2bb5ca;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+.step-progress .citation2 {
+    margin-top:100px;
+    font-size: 25px;
+}
+
+/* ************************ FAQ ************************* */
+
+
+.faq {
+    height: auto;
+}
+
+.accordeon {
+    margin-right: 200px;
+    margin-bottom: 100px;
+}
+
+.accordion {
+    background-color: #2bb5ca;
+    color: #fff;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: 1px solid white ;
+    transition: 0.4s;
+    font: 20px Lato, sans-sherif;
+    outline: none;
+}
+
+.panel {
+    padding: 0.18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+}
+
+.accordion .panel p {
+    font: 16px Lato, sans-sherif;
+}
+
+.active, .accordion:hover {
+    background-color: #1f8c9c;
+}
+
+.accordion:after {
+    content:'\02795'; /* Pour le signe + */
+    font-size: 15px;
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after {
+    content: '\2796'; /* Signe - */
+
+}
+
+.section-header2 {
+    margin-bottom: 200px;
+}
+
+.section-header2 .citation3 {
+    width: 50%;
+    color:black;
+    margin-right: 150px;
+    margin-top: 80px;
+    line-height: 1.5;
+    font-size: 20px;
+    position: absolute;
+    right: 21%;
+}
+
+.section-title4 {
+   margin-right: 200px;
+    font-size:30px;
+    color:#ff9b00;
+}
+
+.faq img {
+    margin-top: 30px;
+    margin-left: 100px;
+    height: 400px;
+}
+/* ************************ FOOTER ************************* */
+
+
+.footer-top {
+    height: auto;
+    background-color: #e7e6e6;
+}
+
+.footer-top a {
+    text-decoration: none;
+    color: black;
+    list-style: none;
+}
+
+.footer-top a:hover {
+    color: #ff992a;
+}
+
+.footer .section-one a input .btn {
+    background-color: #ff992a;
+}
+
+.btn {
+    color: white;
+    background-color: #ff992a;
+}
+
+.text-center a{
+    color: black;
+    text-decoration: none;
+}
+
+.text-center a:hover {
+    color:#ff992a;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* *********************** MEDIA QUERIES *************************** */
+
+@media screen and (max-width:380px) {
+    body html{
+        width:100%;
+    }
+
+    .navBar1 {
+        height: auto;
+    }
+    
+    .navBar1 nav .nav-list1 {
+        display: none;
+    }
+
+    .navBar1 i.icon1 {
+        display:block;
+    }
+
+    #connexion {
+        margin-right: 120px;
+    }
+
+    .section-header p {
+        display:none;
+    }
+
+    .section-title {
+        margin-bottom:20px;
+    }
+
+    .about .serv {
+        padding:8px;
+        margin-left: 20px;
+        margin-bottom: 8px;
+    }
+
+    .contact {
+        margin-right: 50px;
+    }
+
+    /*  PAGE FAQ  */
+
+    .faq img {
+        height: 300px;
+        margin-left: 3px;
+        margin-top:-80px;
+    }
+
+    /* PAGE QUI-SUIS-JE */
+
+    .citation3 .text-center {
+        font-size: 30px;
+        margin-top: 100px;
+    }
+
+    .section-title4 {
+        margin-top:20px;
+        width: 100%;
+        font-size: 32px;
+    }
+
+    .section-header2 .citation3 {
+        width: 100%;
+        position: absolute;
+        left: 0;
+        top: 50px;
+    }
+
+    .accordeon {
+        width: 100%;
+    }
+
+
+}
+
+@media screen and (max-width:450px) {
+    .navBar nav .nav-list {
+        display: none;
+    }
+
+    .navBar i.icon {
+        display:block;
+    }
+
+    .home {
+        right: 15%;
+    }
+    
+    .home .home-title {
+        font-size: 25px;
+    }
+
+    .home .button {
+        margin-bottom: 10px;
+    }
+
+    .home .home-content {
+        margin-right: 150px;
+    }
+
+    .home .lead .citation {
+        display: none;
+    }
+
+    .about .serv {
+    padding:8px;
+    margin-left: 20px;
+    margin-bottom: 8px;
+    }
+
+}
+
+@media screen and (max-width:550px) {
+    .home .button {
+        margin-bottom: 10px;
+    }
+
+    .home {
+        right: 15%;
+        bottom: 15%;
+    }
+}
+
+@media screen and (max-width:520px) {
+
+    .home .button {
+        margin-bottom: 10px;
+    }
+
+    .home {
+        right: 25%;
+        bottom: 15%;
+    }
+}
+
+@media screen and (max-width:659px) {
+    body html{
+        width:100%;
+    }
+
+    .home .button {
+        margin-bottom: 10px;
+    }
+
+    .home {
+        right: 5%;
+    }
+}
+
+@media screen and (max-width:770px) {
+    body html{
+        width:100%;
+    }
+}
+
+@media screen and (max-width:855px) {
+    .home .button {
+        margin-bottom: 10px;
+    }
+
+    .home {
+        right: 5%;
+        bottom: 15%;
+    }
+}
+
+@media screen and (max-width: 890px) {
+    .navBar nav .nav-list {
+        display: none;
+    }
+    
+    .navBar i.icon {
+        display:block;
+    }
+
+    .home {
+        right: 5%;
+        bottom: 15%;
+    }
+
+    .home .home-title {
+        font-size: 25px;
+    }
+
+    .home .lead .citation {
+        display: none;
+    }
+
+}
